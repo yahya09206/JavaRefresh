@@ -9,6 +9,8 @@ public class MilesToKilometers {
 
         System.out.println("Enter miles");
         int mileage = scanner.nextInt();
+        double kilometers = mileage * 1.609;
 
+        System.out.println(mileage + " miles equal to " + kilometers + " kilometers");
     }
 }
