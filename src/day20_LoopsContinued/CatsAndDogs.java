@@ -18,7 +18,12 @@ public class CatsAndDogs {
                 numberOfDogs++;
             }
         }
+
         System.out.println("numberOfCats = " + numberOfCats);
         System.out.println("numberOfDogs = " + numberOfDogs);
+
+        boolean equal = numberOfCats == numberOfDogs;
+
+        System.out.println("equal = " + equal);
     }
 }
