@@ -15,7 +15,5 @@ public class ForLoopIntro {
         for (int i = 1; i <= 5; i++){
             System.out.println("Hello World");
         }
-
     }
-
 }
