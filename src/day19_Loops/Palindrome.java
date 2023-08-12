@@ -12,7 +12,7 @@ public class Palindrome {
             reverseWord += word.charAt(i);
         }
 
-        boolean isPalindrome = word.equals(reverseWord);
+        boolean isPalindrome = word.equalsIgnoreCase(reverseWord);
 
         System.out.println("isPalindrome = " + isPalindrome);
     }
