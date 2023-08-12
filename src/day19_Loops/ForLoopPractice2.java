@@ -13,5 +13,9 @@ public class ForLoopPractice2 {
         for (char i = 'A'; i <= 'Z'; i++){
             System.out.print(i + " ");
         }
+
+        for (char i = 1000; i <= 30000; i++){
+            System.out.print(i + " ");
+        }
     }
 }
