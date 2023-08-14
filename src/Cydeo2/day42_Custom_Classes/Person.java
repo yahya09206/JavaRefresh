@@ -13,4 +13,12 @@ public class Person {
         this.height = height;
         this.isMarried = isMarried;
     }
+
+    public static void main(String[] args) {
+
+        Person person1 = new Person("Jake The Snake", 32, 128, true);
+
+        System.out.println(person1.name);
+
+    }
 }
