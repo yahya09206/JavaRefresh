@@ -1,6 +1,6 @@
 package Cydeo2.day44_CustomClasses;
 
-public class Song {
+public class  Song {
 
     String name;
     double length;
